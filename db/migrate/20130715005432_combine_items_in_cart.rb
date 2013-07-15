@@ -8,7 +8,7 @@ class CombineItemsInCart < ActiveRecord::Migration
       sums.each do |product_id , quantity|
         if quantity>1
           #remove individual items
-          cart.line_itmes.where(product_id:product_id).delete_all
+          cart.line_items.where(product_id:product_id).delete_all
           #replace with a single item
           cart.line_items.create(product_id:product_id,quantity:quantity)
         end
