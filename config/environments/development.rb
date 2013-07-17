@@ -43,33 +43,11 @@ Depot::Application.configure do
     port:          587,
     domain:        "domain.of.sender.net",
     authentication:"plain",
-    user_name:     "dave",
-    password:      "secret",
+    user_name:     "zhixizhiyu2013@gmail.com",
+    password:      "sysudytsser10",
     enable_starttls_auto:   true
   }
 
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
